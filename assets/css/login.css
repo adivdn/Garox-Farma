@@ -1,0 +1,64 @@
+body{
+    background-color: #467088;
+}
+.atas{
+    margin-left: 93%;
+}
+
+.judul{
+    position: absolute;
+    width: 431px;
+    height: 165px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 100px;
+    line-height: 165px;
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    margin-left: 8%;
+}
+.gambar{
+    margin-top: 140px;
+    margin-left: 100px;
+}
+hr{
+    width: 1000px;
+    height: 0px;
+    background-color: #FFFFFF;
+    border: 3px solid #FFFFFF;
+    transform: rotate(90deg);
+    margin-top: 0px;
+    margin-left: 0px;
+
+}
+.teks{
+    position: absolute;
+    width: 758px;
+    height: 82px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 41px;
+    color: #FFFFFF;
+    margin-left: 709px;
+    margin-top: -435px;       
+}
+#tengah{
+    margin-left: 150px;
+}
+
+.container-fluid{
+    margin-left: 700px;
+    margin-top: -250px;
+    color: black;
+  
+}
+#login{
+    margin-top: 30px;
+    margin-left: 150px;
+}
+#email,#password{
+    color:#FFFFFF;
+}

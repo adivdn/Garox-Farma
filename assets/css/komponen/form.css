@@ -1,0 +1,17 @@
+
+.frame-form-weecom .card-header{
+	background: transparent;
+	font-weight: bold;
+}
+
+.form-weecom{
+	margin-bottom: 0px;
+}
+
+.form-weecom .form-group label.control-label{
+	color: #797979;
+}
+
+.form-control:disabled, .form-control[readonly]{
+	background-color: transparent !important; 
+}

@@ -1,0 +1,76 @@
+body{
+    background-color: #467088;
+    width: 1330px;
+   
+    position: absolute;
+ 
+}
+
+.tombol{
+    position: absolute;
+    margin-left: 83.8%;
+    margin-top: 40px;
+    
+}
+#tombol{
+    color: #000000;
+    background-color: #FF7D7D;   
+}
+.judul{
+    color: #FFE600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 63px;
+    line-height: 26px;
+    margin-top: 110px;
+    margin-left: 20px;
+}
+.pojok{
+    margin-left: 80%;
+    margin-top: -60px;
+    position: absolute;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.135216);
+}
+#input{
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.135216);
+    width: 240px;
+    height: 50px;
+}   
+
+.card{
+    width: 300px;
+    margin-left: 40px;
+    margin-top: 20px;
+    background-color: #FFECEC;
+    border: 2px solid #85B0C8;
+}
+#card-deck{
+    background-color: #FFFFFF;
+    margin-top: 40px;
+    margin-left: 30px;
+    
+}
+.harga{
+    width: 136px;
+    height: 30px;
+    margin-left: 0px;
+    margin-top: 0px;
+    background-color: #E7E7E7;
+    
+}
+.card-footer{
+    background-color: #E7E7E7;
+    height: 50px;
+    border: 2px solid #85B0C8;
+}
+a{
+    margin-left: 150px;
+    margin-top: -70px;
+    width: 100px;
+    height: 45px;
+}

@@ -1,0 +1,43 @@
+body{
+    background-color: #467088;
+}
+.container{
+    position: absolute;
+    width: 546px;
+    height: 300px;
+    margin-top: 100px;
+    margin-left: 384px;
+    background: #F4F4F4;
+    border: 3px solid #439BCD;
+    box-sizing: border-box;
+}
+.custom-select{
+    background-color: #D0D0D0;
+    border: 1px solid #8B8B8B;
+    box-sizing: border-box;
+}
+.bawah{
+    margin-top: 40px;
+   
+}
+.jumlah{
+    margin-top: 30px;
+    margin-left: 80px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 35px;
+}
+.tombol{
+    margin-top: 30px;
+    position: absolute;
+    margin-left: 400px;
+}
+.btn{
+    background: #56CBC4;
+    border: 1px solid #439BCD;
+    box-sizing: border-box;
+    color: #000000;
+    width: 100px;
+    height: 50px;
+}
