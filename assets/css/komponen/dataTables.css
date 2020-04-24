@@ -1,0 +1,10 @@
+.dataTables_weecom{
+	/*BIKIN INI KARENA OUTLINE TERTUTUP OLEH overflow:hidden milik .table-responsive*/
+	padding-top:20px;
+}
+
+/*SEARCH JADI DI KIRI*/
+.dataTables_filter,
+.dataTables_length{
+	text-align: left !important;
+}

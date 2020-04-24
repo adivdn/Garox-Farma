@@ -1,0 +1,99 @@
+body{
+    background-color: #467088;
+    position: absolute;
+}
+.gambar{
+    margin-top: 0px;
+    width: 500px;
+    height: 500px;
+}
+.judul{
+    width: 587px;
+    height: 382px;
+    margin-left: 900px;
+    margin-top: -600px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 50px;
+    line-height: 191px;
+   
+    color: #FFFFFF;
+  
+}
+.info{
+    position: absolute;
+    width: 584px;
+    height: 56px;
+    margin-left: 950px;
+    margin-top: -130px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    line-height: 28px;
+    font-weight: 500;
+    color: #80FFD1;
+}
+#teks{
+    margin-top: -150px;
+}
+#tes{
+    margin-left: 50px;
+}
+.kotak{
+    
+    margin-left: 910px;
+    margin-top: 50px;
+}
+.login{
+    width: 150px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    line-height: 41px;
+    height: 50px;
+    background-color: #8987F7;
+}
+.register{
+    margin-left: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    line-height: 41px;
+    width: 150px;
+    height: 50px;
+    background-color: #FFB3C5;
+}
+
+.atas{
+    width: 137px;
+    height: 28px;
+    position: absolute;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    line-height: 28px;
+    margin-left: 940px;
+    margin-top: 10px;
+    color: #FFFFFF;
+}
+.kanan{
+    width: 137px;
+    height: 28px;
+    position: absolute;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    line-height: 28px;
+    margin-left: 1125px;
+    margin-top: 10px;
+    color: #FFFFFF;
+}
+
+footer{
+    position: absolute;
+    width: 903px;
+    height: 298px;
+    margin-left: 400px;
+    margin-top: 80px;
+    /* font-size: 20px;
+    line-height: 23px; */
+    text-align: justify;
+}
+
+

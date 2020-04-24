@@ -1,0 +1,81 @@
+body{
+    background-color: #467088;
+}
+.judul{
+    position: absolute;
+    width: 566px;
+    height: 264px;
+    margin-left: 512px;
+    margin-top: -30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 138px;
+    color: #FFFFFF;
+}
+
+#info{
+    position: absolute;
+    margin-top: -70px;
+    
+}
+hr{
+    border: 4px solid #4DB6AC;
+    position: absolute;
+    width: 450px;
+    height: 0px;    
+    margin-top: 170px;
+    margin-left: 475px;
+}
+
+.bawah{
+    position: absolute;
+    width: 566px;
+    height: 58px;
+    margin-top: 190px;
+    margin-left: 430px;
+    font-size: 15px;
+    line-height: 29px;
+    text-align: center;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: normal;
+}
+.container-fluid{
+    position: absolute;
+    background-color: #FFFFFF;
+    width: 500px;
+    border: 3px solid  #5D96B6;
+    border-radius: 26px;
+    margin: 250px 144px 382px 467px;
+}
+input{
+    position: absolute;
+    width: 340px;
+   
+}
+
+#nama{
+    margin-top: 20px;
+}
+textarea{
+    position: absolute;
+    width: 340px;
+    height: 100px;
+}
+
+#proses{
+    margin-top: 60px;
+    margin-left: 40%;
+    width: 100px;
+    height: 55px;
+}
+.gambar{
+    position: absolute;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+.atas{
+    margin-left: 93%;
+}

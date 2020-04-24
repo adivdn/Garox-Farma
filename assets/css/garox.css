@@ -1,0 +1,37 @@
+body{
+    background-color: #467088;
+}
+.judul{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 80px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 20px;
+    margin-left: 200px;
+}
+.kecil{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 30px;
+    margin-top: 20px;
+    margin-left: 300px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+#garox{
+    color: #FFFFFF;
+    background-color:  #FF0000;
+    
+}
+.carousel-inner img {
+    width: 30%;
+    height: 8%;
+    margin-left: 500px;
+}

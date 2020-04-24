@@ -1,0 +1,68 @@
+body{
+    background-color: #467088;
+    width: 1330px;
+    position: absolute;
+}
+.tombol{
+    position: absolute;
+    margin-left: 96.5%;
+    margin-top: 0px; 
+}
+
+
+.gambar{
+    width: 350px;
+    height: 308px;
+    margin-left: 147px;
+    margin-top: 0px;
+}
+.judul{
+    position: absolute;
+    color: #E6FF82;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 60px;
+    line-height: 83px;
+    margin-left: 500px;
+    margin-top: -250px;
+}
+.container-fluid{
+    margin-left: 10px;
+    margin-top: -90px;
+    
+    position: absolute;
+    background-color: #FFFFFF;
+    border: 2px solid #85B0C8;
+    border-radius: 51px;
+}
+.tulisan{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 38px;
+    line-height: 56px;
+    color: #000000;
+}
+#bayar{
+    margin-left: 30px;
+    margin-top: -20px;
+}
+.kosong{
+    margin-left: 500px;
+}
+
+
+/* #satu{
+    margin-left: 400px;
+    height: 0px;
+    width: 100px;
+    border: 3px solid #85B0C8;
+    transform: rotate(90deg);
+}
+hr{
+    width: 100px;
+    margin-right: 300px;
+    height: 0px;
+    border: 3px solid #85B0C8;
+    transform: rotate(90deg);
+} */

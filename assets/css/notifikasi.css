@@ -1,0 +1,54 @@
+body{
+    position: absolute;
+    width: 1330px;
+    background: #467088;
+}
+.atas{
+    position: absolute;
+    width: 422px;
+    height: 74px;
+    left: 509px;
+    margin-top: 30px;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 54px;
+    line-height: 74px;
+    color: #FFF852;
+
+}
+.bawah{
+    position: absolute;
+    margin-left: 320px;
+    margin-top: 100px;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 47px;
+    line-height: 74px;
+    color: #FFFFFF;
+}
+.gambar{
+    position: absolute;
+    margin-top: 50px;
+}
+.foto1{
+    margin-left: 400px;
+    margin-top: 60px;
+    
+}
+.foto2{
+    margin-left: -350px;
+    background: #467088;
+}
+.tombol{
+    position: absolute;
+    margin-left: 580px;
+    margin-top: 550px;
+}
+.btn{
+    width: 248px;
+    height: 50px;
+}
