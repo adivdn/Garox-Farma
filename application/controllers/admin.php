@@ -6,10 +6,12 @@
         }
 
         public function index(){
-            $data['title'] = 'Dashboard';
-            $this->load->view('admin/template/header', $data);
-		    $this->load->view('admin/index', $data);
-		    $this->load->view('admin/template/footer');
+            if($this->session->userdata('logged_in') && $this->session->userdata('level') == 'admin' ){    
+                $data['title'] = 'Dashboard';
+                $this->load->view('admin/template/header', $data);
+                $this->load->view('admin/index', $data);
+                $this->load->view('admin/template/footer');
+            }
         }
 
         public function data(){
@@ -19,11 +21,14 @@
         }
 
         public function editItem($item_id){
-            $data['title'] = 'Edit Item';
-            $data['item'] = $this->admin_model->getitem($item_id);
-            $this->load->view('admin/template/header', $data);
-            $this->load->view('admin/edititem',$data);
-            $this->load->view('admin/template/footer');
+
+            if($this->session->userdata('logged_in')){
+                $data['title'] = 'Edit Item';
+                $data['item'] = $this->admin_model->getitem($item_id);
+                $this->load->view('admin/template/header', $data);
+                $this->load->view('admin/edititem',$data);
+                $this->load->view('admin/template/footer');
+            }
         }
 
         public function processEdit(){
@@ -86,11 +91,13 @@
         }
 
         public function addItem(){
-            $data['title'] = 'Tambah Barang';
-            $this->load->view('admin/template/header', $data);
-		    $this->load->view('admin/additem');
-		    $this->load->view('admin/template/footer');
-            
+
+            if($this->session->userdata('logged_in')){
+                $data['title'] = 'Tambah Barang';
+                $this->load->view('admin/template/header', $data);
+                $this->load->view('admin/additem');
+                $this->load->view('admin/template/footer');
+            }
         }
 
         public function processAdd(){
