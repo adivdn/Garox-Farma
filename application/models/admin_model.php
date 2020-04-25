@@ -29,6 +29,9 @@
             $query = $this->db->get_where('item',array('item_id' => $item_id));
             return $query->result_array();
         }
+		 public function detailitem($item_id){
+            return $this->db->get_where('item',array('item_id' => $item_id));
+        }
     }
 
 ?>
