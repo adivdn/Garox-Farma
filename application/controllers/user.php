@@ -6,15 +6,24 @@
         }
 
         public function index(){
-            $this->load->view('user/index');
-        }
+            if($this->session->userdata('logged_in') && $this->session->userdata('level') == 'admin'){
+                redirect('admin');
+            }else if($this->session->userdata('logged_in') && $this->session->userdata('level') == 'user'){
+                redirect('user/route');
+            }else{
+                $this->load->view('user/index');
+            }
+        }       
         
         public function login(){
             $this->load->view('user/login');
         }
 
         public function route(){
-            $this->load->view('user/route');
+
+            if($this->session->userdata('logged_in') && $this->session->userdata('level') == 'user'){
+                $this->load->view('user/route');
+            }
         }
         public function prosesPembayaran(){
             $data['title']  = 'Proses Pembayaran';
@@ -44,8 +53,9 @@
 
                     $role = $this->user_model->login($email,$password)->row_array();
                     if($role > 0){
-                        $data = ['user_id' => $role['user_id'],
-                                 'level'   => $role['role']
+                        $data = ['user_id'     => $role['user_id'],
+                                 'level'       => $role['role'],
+                                 'logged_in'   => TRUE  
                                 ];
                         $this->session->set_userdata($data);
                         if($this->session->userdata('level') == 'admin'){
@@ -201,7 +211,7 @@
         }
 
         public function logout(){
-            $dataLogin = ['user_id','level'];
+            $dataLogin = ['user_id','level','logged_in'];
             $this->session->unset_userdata($dataLogin);
             $this->load->view('user/garox');
             
