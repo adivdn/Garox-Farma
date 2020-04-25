@@ -80,13 +80,18 @@
             }
         }
 
-        public function deleteItem($item_id){
-
+         public function deleteItem($item_id){
+            
+            $item = $this->admin_model->detailitem($item_id)->row();
+            if($item->gambar != NULL){
+                $target_file = './assets/upload/'.$item->gambar;
+                unlink($target_file);
+            }
             $del = $this->admin_model->deleteItem($item_id);
             $data['flash'] = 'Dihapus';
             if($this->db->affected_rows() > 0){
                 $this->session->set_flashdata($data);
-                $this->index();
+                redirect('admin/index');
             }
         }
 
